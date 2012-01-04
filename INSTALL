@@ -1,0 +1,8 @@
+This program relies on:
+
+libncurses-dev
+libudev-dev
+libcdk-dev
+
+To install, enter:
+make

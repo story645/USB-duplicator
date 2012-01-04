@@ -1,0 +1,17 @@
+This program is a usb duplicator. It emulates the functionality of dd
+by doing block level writes. Due to time constraints, the program only
+copies to one usb. 
+
+Notes:
+the program has to be run as root
+the menu seems to be not working, but selecting by number works.
+the whole file selection for destination usbs is a hack, but I couldn't
+figure out libusb in time.
+
+The program exits as soon as it finishes copying.
+
+
+Acknowledgments:
+This program was created for "I Heart Engineering" and as part of a
+final project for CS82010. It benefited from feedback and advice from
+William Morris, the owner of I Heart Engineering.
